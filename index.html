@@ -1,0 +1,175 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educação sobre o Diário Oficial - ODS 4</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Educação de Qualidade (ODS 4)</h1>
+    <p>Aprenda sobre o Diário Oficial e a importância da transparência pública.</p>
+  </header>
+
+  <section id="introducao">
+    <h2>O que é o Diário Oficial?</h2>
+    <p>O Diário Oficial é o meio pelo qual órgãos públicos divulgam oficialmente atos administrativos como leis, decretos, portarias, e muito mais.</p>
+  </section>
+
+  <section id="tipos">
+    <h2>Alguns exemplos de tipos de Publicações</h2>
+  
+    <!-- LEI -->
+    <div class="tipo">
+      <h3>Lei</h3>
+      <p>Norma criada pelo poder legislativo que regula direitos e deveres.</p>
+      <button onclick="toggleExample('ex-lei')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-lei">
+        <div class="publicacao">
+          <h4>LEI Nº 1.234, DE 10 DE MAIO DE 2024</h4>
+          <p>
+            Institui o Programa Municipal de Alimentação Escolar no município de Ananindeua e dá outras providências.
+          </p>
+          <p>
+            O PREFEITO DO MUNICÍPIO DE ANANINDEUA, no uso de suas atribuições legais, faz saber que a Câmara Municipal aprovou e ele sanciona a seguinte Lei:
+          </p>
+          <p><strong>Art. 1º</strong> Fica instituído o Programa Municipal de Alimentação Escolar...</p>
+          <p><strong>Art. 2º</strong> A Secretaria Municipal de Educação será responsável...</p>
+          <p><strong>Art. 3º</strong> Esta Lei entra em vigor na data de sua publicação.</p>
+          <br>
+          <p><strong>Gabinete do Prefeito de Ananindeua, 10 de maio de 2024.</strong></p>
+          <p><em>João da Silva</em><br>Prefeito Municipal</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- DECRETO -->
+    <div class="tipo">
+      <h3>Decreto</h3>
+      <p>Ato do poder executivo que regulamenta leis ou organiza serviços.</p>
+      <button onclick="toggleExample('ex-decreto')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-decreto">
+        <div class="publicacao">
+          <h4>DECRETO Nº 567, DE 2 DE FEVEREIRO DE 2024</h4>
+          <p>
+            Dispõe sobre o uso obrigatório de uniforme escolar na rede pública municipal.
+          </p>
+          <p>O PREFEITO DO MUNICÍPIO DE ANANINDEUA, no uso de suas atribuições legais, decreta:</p>
+          <p><strong>Art. 1º</strong> Torna-se obrigatório o uso do uniforme escolar em todas as unidades da rede pública municipal de ensino.</p>
+          <p><strong>Art. 2º</strong> Este Decreto entra em vigor na data de sua publicação.</p>
+          <br>
+          <p><strong>Gabinete do Prefeito, 2 de fevereiro de 2024.</strong></p>
+          <p><em>João da Silva</em><br>Prefeito Municipal</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- PORTARIA -->
+    <div class="tipo">
+      <h3>Portaria</h3>
+      <p>Ato administrativo interno de uma secretaria ou órgão público.</p>
+      <button onclick="toggleExample('ex-portaria')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-portaria">
+        <div class="publicacao">
+          <h4>PORTARIA Nº 89/2024 – SEMED</h4>
+          <p>
+            Estabelece o calendário letivo para o ano de 2024 nas escolas da rede municipal.
+          </p>
+          <p>O SECRETÁRIO MUNICIPAL DE EDUCAÇÃO, no uso de suas atribuições legais, resolve:</p>
+          <p><strong>Art. 1º</strong> Fica estabelecido o calendário letivo do ano de 2024...</p>
+          <p><strong>Art. 2º</strong> Esta portaria entra em vigor na data de sua publicação.</p>
+          <br>
+          <p><strong>SEMED, 15 de janeiro de 2024.</strong></p>
+          <p><em>Maria Oliveira</em><br>Secretária Municipal de Educação</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- EDITAL -->
+    <div class="tipo">
+      <h3>Edital</h3>
+      <p>Documento que divulga concursos, convocações ou licitações públicas.</p>
+      <button onclick="toggleExample('ex-edital')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-edital">
+        <div class="publicacao">
+          <h4>EDITAL Nº 03/2024 – CONCURSO PÚBLICO</h4>
+          <p>
+            A Prefeitura de Ananindeua torna público o edital de abertura do Concurso Público para provimento de vagas no cargo de Professor de Educação Infantil.
+          </p>
+          <p>As inscrições estarão abertas de 20/05 a 20/06/2024 no site www.concursosananindeua.pa.gov.br.</p>
+          <br>
+          <p><strong>Ananindeua, 10 de maio de 2024.</strong></p>
+          <p><em>João da Silva</em><br>Prefeito Municipal</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- AVISO -->
+    <div class="tipo">
+      <h3>Aviso</h3>
+      <p>Comunicado breve sobre assuntos administrativos ou de interesse público.</p>
+      <button onclick="toggleExample('ex-aviso')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-aviso">
+        <div class="publicacao">
+          <h4>AVISO</h4>
+          <p>
+            Informamos que, por motivo de manutenção elétrica, o atendimento da Secretaria de Saúde será suspenso no dia 12 de maio de 2024, das 8h às 12h.
+          </p>
+          <br>
+          <p><strong>Secretaria Municipal de Saúde</strong></p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- EXTRATO DE CONTRATO -->
+    <div class="tipo">
+      <h3>Extrato de Contrato</h3>
+      <p>Resumo das informações principais de um contrato firmado.</p>
+      <button onclick="toggleExample('ex-contrato')">Ver Exemplo</button>
+      <div class="exemplo" id="ex-contrato">
+        <div class="publicacao">
+          <h4>EXTRATO DE CONTRATO Nº 2024/045</h4>
+          <p><strong>Contratante:</strong> Prefeitura Municipal de Ananindeua</p>
+          <p><strong>Contratada:</strong> Empresa XYZ Serviços Alimentícios Ltda.</p>
+          <p><strong>Objeto:</strong> Fornecimento de merenda escolar para as unidades da rede municipal.</p>
+          <p><strong>Valor:</strong> R$ 450.000,00 (quatrocentos e cinquenta mil reais)</p>
+          <p><strong>Vigência:</strong> 01/06/2024 a 31/12/2024</p>
+          <br>
+          <p><strong>Secretaria Municipal de Administração – SEMAD</strong></p>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+  
+  
+  <section id="como-publica">
+    <h2>Como uma Matéria é Publicada?</h2>
+    <p>Após a aprovação, a matéria é enviada para o setor responsável pela publicação, revisada e então publicada no Diário Oficial.</p>
+  </section>
+
+  <section id="importancia">
+    <h2>Por que isso é importante?</h2>
+    <p>Garante transparência, permite a fiscalização da população e fortalece a democracia.</p>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por Eric Nascimento | Apoio ao ODS 4</p>
+    <p><a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank">Saiba mais sobre o ODS 4</a></p>
+  </footer>
+
+  <script>
+    function toggleExample(id) {
+      const div = document.getElementById(id);
+      if (div.style.display === "none" || div.style.display === "") {
+        div.style.display = "block";
+      } else {
+        div.style.display = "none";
+      }
+    }
+  </script>
+  
+</body>
+</html>
