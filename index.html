@@ -381,10 +381,15 @@
     <script>
       function toggleExample(id) {
         const div = document.getElementById(id);
+        const button = document.querySelector(
+          `button[onclick="toggleExample('${id}')"]`
+        );
         if (div.style.display === "none" || div.style.display === "") {
           div.style.display = "block";
+          button.textContent = "Esconder Exemplo";
         } else {
           div.style.display = "none";
+          button.textContent = "Ver Exemplo";
         }
       }
     </script>

@@ -198,7 +198,7 @@ footer a:hover {
 }
 
 #exemplos-adicionais .tipo {
-    border-left-color: #ffc107; /* Yellow accent for example sites */
+    border-left: 6px solid #ffc107; /* Yellow accent for examples */
 }
 
 #exemplos-adicionais a {
