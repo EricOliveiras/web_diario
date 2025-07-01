@@ -19,7 +19,7 @@ Para explorar o projeto, basta abrir o arquivo `index.html` em seu navegador web
 
 1.  **Clone o repositório (opcional):**
     ```bash
-    git clone [https://github.com/seu-usuario/web_diario.git](https://github.com/seu-usuario/web_diario.git)
+    git clone https://github.com/EricOliveiras/web_diario.git
     cd web_diario
     ```
 2.  **Abra o arquivo:**
